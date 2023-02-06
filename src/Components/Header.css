@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  }
+ html,body{
+    width: 100%;
+    height:100%;
+ } 
+  div{
+    font-size: 1.3vw;
+    font-weight: 500;
+    /* background-color: #dadada; */
+    overflow: hidden;
+  }
+  nav{
+    background-color:crimson;
+    color: #ffff;
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+  }
+  .container{
+    width: 70%;
+    background-color:rgba(250, 201, 199, 0.469);
+    margin: auto;
+    height: 90vh;
+box-sizing: border-box;
+padding: 3vmax;
+overflow: auto;
+ }
+  *::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    background-color: rgba(215, 206, 177, 0.568);
+  }
+  .container h1{
+    font-size: 2vw;
+    margin-bottom: 1.4vw;
+    text-align: center;
+color: rgb(14, 14, 14);
+  }
+  .container >form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
+  .container>form>input,textarea{
+margin-bottom:5px ;
+padding: .4vw .8vw;
+outline: none;
+border-radius: 3px;
+border: 1px solid #ffff;
+color: crimson;
+font-weight: 600;
+  }
+  .container button{
+border-radius: 5px;
+    color:#ffff;
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 1vw;
+padding: .6vw .8vw;
+border: none;
+    background-color: rgb(11, 10, 10);
+  }
+  .task{
+    display: flex;
+    margin-top: 5px;
+    border-radius:5px ;
+    background-color: #fff;
+    padding: 20px;
+
+  }
+  .task > div{
+    width: 100%;
+    font-weight: 550;
+    
+  }
+  .task span{
+    font-weight: 100;
+  }
+  .task button{
+    border-radius: 100%;
+    width: 30px;
+    height:30px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+  }
+  .task button:hover{
+    background-color: red;
+  }
